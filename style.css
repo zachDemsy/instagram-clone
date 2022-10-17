@@ -27,8 +27,8 @@ body {
 }
 
 .main-home {
-    position: absolute;
-    width: calc(1001%-300%);
+    position: relative;
+    width: fit-content;
     top: 0;
     left: 300px;
     background: #fff;
@@ -294,7 +294,7 @@ body {
 
 .main-post {
     display: grid;
-    grid-template-columns: repeat(autp-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     gap: 11px
 }
 
